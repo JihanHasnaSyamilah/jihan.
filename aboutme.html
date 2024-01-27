@@ -1,0 +1,118 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<div class="w3-container">
+<img src="me.png" style="width:100%">
+</div>
+
+
+<div class="w3-bar w3-orange">
+<button class="w3-bar-item w3-button" onclick="tumbuh('h')">HOME</button>
+<button class="w3-bar-item w3-button" onclick="tumbuh('iu')">ID UMUM</button>
+<button class="w3-bar-item w3-button" onclick="tumbuh('bb')">MY HOBBY</button>
+<button class="w3-bar-item w3-button" onclick="tumbuh('pb')">THE TOPIC TODAY</button>
+<button class="w3-bar-item w3-button" onclick="tumbuh('ks')">LAST TOPIC TODAY</button>
+</div>
+
+<div class="w3-container tumbuhan w3-center">
+<button class="w3-button w3-brown w3-round">
+Halaman web ini dibuat untuk memenuhi tugas Pemograman web 1<br><br><center>Enjoy!
+<br><img src="chin.png" style="width:15%"></button>
+</div>
+
+
+<div id="h"class="w3-container tumbuhan w3-center w3-animate-zoom" style="display:none">
+<button class="w3-button w3-brown w3-round">
+Halaman web ini dibuat untuk memenuhi tugas Pemograman web 1<br><br><center>Enjoy!
+<br><img src="chin.png" style="width:15%"></button>
+</div>
+
+
+<div id="iu" class="w3-btn w3-ripple w3-container w3-center tumbuhan w3-animate-bottom w3-brown" style="display:none">
+<p><font color="orange">MY NAME: Jihan Hasna Syamilah <br>MY CLASS: IF-10 <br>MY NIM: 10123362</p></font>
+<br><img src="no.png" style="width:20%"><br><br><br><br>
+</div>
+
+
+<div id="bb" class="w3-container tumbuhan w3-brown" style="display:none">
+<p>My hobby is drawing!</p>
+<p>Berikut ada beberapa dari banyaknya hasil gambaran saya :)</p>
+<p><font color="orange">(ini agak keluar dari topik, tapi tolong jangan curi gambaran saya ya :) )</p></font>
+<br>
+<table>
+<tr><td><div class="w3-btn w3-ripple w3-container w3-center w3-animate-left w3-brown">
+<p><font size=3>My newest art in 2024<br>Plus, this's my male oc (Original Character)<p></font>
+<img src="24.png" style="width:45%"></div><td>
+
+<div class="w3-btn w3-ripple w3-container w3-center w3-animate-right w3-brown">
+<p><font size=3>My art in 2024</p></font>
+<img src="f.png" alt="bunga" style="width:60%"></div><td>
+
+<div class="w3-btn w3-ripple w3-container w3-center w3-animate-left w3-brown">
+<p><font size=3>My third art collab<br>with my friends in 2023<p></font>
+<img src="kol1.png" style="width:90%"></div>
+
+<tr><td><div class="w3-btn w3-ripple w3-container w3-center w3-animate-right w3-brown">
+<p><font size=3>My second art collab<br>with my friends in 2023</p></font>
+<img src="kol.png" alt="bunga" style="width:50%"></div><td>
+
+<div class="w3-btn w3-ripple w3-container w3-center w3-animate-right w3-brown">
+<p><font size=3>My art in 2023<br>This is my oc's</p></font>
+<img src="23.png" alt="bunga" style="width:70%"></div><td>
+
+<div class="w3-btn w3-ripple w3-container w3-center w3-animate-left w3-brown">
+<p><font size=3>My art in 2022<p></font>
+<img src="22.png" style="width:80%"></div>
+</table>
+</div>
+
+<div id="pb" class="w3-container tumbuhan w3-animate-top w3-brown" style="display:none">
+<p>Sudah nyampe sini saja...</p>
+<div class="w3-container w3-animate-fading">
+<p>My Favorite Rare Tree!</p></div>
+
+<table>
+<tr><td><div class="w3-container w3-animate-left">
+<img src="drh.jpg" style="width:80%"></div><td>
+
+<div class="w3-btn w3-ripple w3-container w3-brown w3-animate-right">
+
+<p>Salah satunya ada pohon Darah Naga</p>
+<p>"Dracaena cinnabari adalah tanaman suji yang berasal dari kepulauan Socotra.</p>
+ <p>Tumbuhan ini juga dikenal sebagai Suji Socotra dan Dragon Blood Tree (Suji Darah).</p>
+ <p>Flora ini dijuluki demikian karena getah merah yang diproduksi oleh tumbuhan ini"</p></div>
+</table>
+</div>
+
+
+
+
+<div id="ks" class="w3-container tumbuhan w3-animate-bottom w3-brown" style="display:none">
+<p>Lanjut...</p>
+<div class="w3-container w3-animate-fading">
+<p>My Favorite Rare flower!</p></div>
+
+<table>
+<tr><td><div class="w3-container w3-animate-right">
+<img src="bang.webp" style="width:90%"></div><td>
+
+<div class="w3-btn w3-ripple w3-container w3-animate-left w3-brown">
+
+<p>Salah satunya ialah Rafflesia Arnoldii</p>
+<p>"Padma raksasa adalah tumbuhan parasit obligat yang terkenal karena memiliki bunga</p>
+ <p>berukuran sangat besar, bahkan merupakan bunga terbesar di dunia ke-1. Bunga Rafflesia</p>
+ <p>dikatakan bunga yang unik karena hanya berupa bunga mekar tanpa daun, akar dan tidak</p>
+ <p>memiliki batang."</p></div>
+</table>
+</div>
+
+<script>
+function tumbuh(tumbuh) {
+var i;
+var x = document.getElementsByClassName("tumbuhan");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+document.getElementById(tumbuh).style.display = "block";
+}
+</script>
